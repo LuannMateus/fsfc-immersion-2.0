@@ -6,6 +6,9 @@ type RouteDocument = Route & Document;
 @Schema()
 class Route {
   @Prop()
+  _id: string;
+
+  @Prop()
   title: string;
 
   @Prop(
